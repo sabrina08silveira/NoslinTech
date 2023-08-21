@@ -45,7 +45,7 @@ body * {
 #profile img {
   width: 120px;
   margin: auto;
-  border-radius: 120px;
+  border-radius: 50%;
 }
 
 #profile p {
@@ -63,7 +63,7 @@ body * {
 #switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-url) no-repeat center;
+  background: rgb(121, 207, 241) var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
 
