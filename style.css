@@ -7,7 +7,7 @@
 :root {
   --text-color: rgb(2, 2, 3);
   --bg-url: url(./assets/desktop.jpg);
-  --stroke-color: rgba(17, 4, 4, 0.233);
+  --stroke-color: rgba(0, 57, 133, 0.945);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(12, 10, 10, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
@@ -15,9 +15,9 @@
 }
 
 .light {
-  --text-color: rgb(0, 0, 0);
+  --text-color: rgb(2, 2, 3);
   --bg-url: url(./assets/desktop-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0);
+  --stroke-color: rgba(0, 57, 133, 0.945);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(8, 7, 7, 0.575);
@@ -159,10 +159,10 @@ footer {
 /*  media queries  */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./Assets/desktop.jpg);
+    --bg-url: url(./assets/desktop.jpg);
   }
   .light {
-    --bg-url: url(./Assets/desktop-light.jpg);
+    --bg-url: url(./assets/desktop-light.jpg);
   }
 }
 
